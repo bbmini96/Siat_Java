@@ -1,0 +1,21 @@
+[I/O Input/Output]
+
+Stream : 데이터를 전송하는 연결 통로, 단방향
+
+- 바이트 스트림
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/InputStream.html
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/OutputStream.html
+
+- 문자 스트림
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Reader.html
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Writer.html
+
+- 입력 스트림
+FileInputStream, FileReader, BufferInputStream, BufferReader 등
+
+- 출력 스트림
+FileOutputStream, FileWriter, BufferOutputStream, BufferWriter 등
+
+- 직렬화 Serialization
+	- 메모리 상의 데이터를 파일 또는 다른 PC 에게 알맞은 형식으로 전달하기 위해
+	    바이트 스트림 형태로 만드는 행위
